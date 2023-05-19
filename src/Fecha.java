@@ -33,6 +33,12 @@ public class Fecha {
 	  this.minuto = minuto;
     }
 
+	public Fecha (int a�o, int mes, int dia){
+		this.a�o = a�o;
+		this.mes = mes;
+		this.dia = dia;
+	}
+
 	public static void main(String[] args) {
 		Fecha f= new Fecha();
 		System.out.println(f.a�o+":"+f.mes+":"+f.dia+":"+f.hora+":"+
